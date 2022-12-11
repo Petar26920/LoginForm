@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+h1{
+    font-size: 10vh;
+    font-weight: 500;
+    font-family: "Tangerine",sans-serif;
+}
+.red{
+    color:rgb(254,64,102);
+}
+h1{
+    color:white;
+    opacity: 1;
+}
+.containers::before{
+    content: "";
+    background-image: url("images/tamara-bellis-IwVRO3TLjLc-unsplash.jpg");
+    background-size: cover;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    opacity: 1;
+    z-index: -1;
+}
+.containers{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+}
+.container-fluid{
+    width:30vw;
+    height: 35vh;
+
+}
+.login::before{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    content:"";
+}
+.login h2{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login{
+    height: 40vh;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px gray;
+    border: 1px solid rgb(109, 106, 106);
+}
+.naslov{
+    margin: 5vh 0px 10vh 0;
+    
+}
+.loginput{
+    background-color: white;
+    width: 70%;
+    margin: 0.5vh auto;
+    border-radius: 7px;
+    padding-top: 1vh;
+}
+.forma input{
+    border:none;    
+}
+.forma div{
+    margin-top: 2vh;
+}
+.forma input:focus
+{
+    outline: none;
+}
+.loginput:last-child{
+    width:3vw;
+    padding:0.3vw;
+    border: 2px solid white;
+    background-color: none;
+    margin-top: 6vh;
+}
+.dgm{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
